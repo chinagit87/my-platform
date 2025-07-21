@@ -1,0 +1,132 @@
+/* the navbar section started here. */
+ul{
+    background-color: rgb(227, 233, 235);
+    overflow: hidden;
+}
+li{
+   list-style-type: none;
+}
+li a{
+    color: #787575;
+    float: left;
+    padding: 0.5rem 2rem 0.5rem 0.5rem; 
+    font-weight: bold; 
+    text-decoration: none;
+}
+li a:hover{
+    color:rgba(246, 116, 68, 0.947);
+}
+.navbar-brand{
+    padding: 0.5rem 9rem; 
+    font-size: 1.8rem;
+    font-family: monospace;
+}
+.active{
+    color:rgba(246, 116, 68, 0.947);
+}
+.jane-span{
+    color:rgba(246, 116, 68, 0.947);
+}     
+.navbar-link{
+    padding-top: 1rem;
+}
+/* the navbar section ended here. */
+
+/* <!-- who we are div started here. --> */
+.who-we-are-h2{
+    color: rgba(246, 116, 68, 0.947);
+    /* padding-top: 3rem; */
+}
+/* row div started here. */
+.row{
+    padding: 3rem 12rem 12rem 12rem;
+}
+.row-p{
+    padding-top: 1rem; 
+    width: 39rem;  
+    font-size: 1.1rem;     
+}
+.col-md-5 img{
+    width: 20rem;
+    height: 23rem;
+}
+/* row div ended here. */
+
+/* row-1 div started here. */
+h1{
+    color: rgba(246, 116, 68, 0.947);
+    text-align: center;
+    padding: 2rem;
+}
+.row{
+    background-color: rgb(227, 233, 235); 
+    overflow: hidden;   
+}
+.col-md-3{
+    border: 1px solid rgb(135, 139, 141);
+    padding-left: 1rem;
+
+}
+.col-md-3 img{
+    border-radius: 1.5rem;
+    width: 100%;
+    margin-top: 1.5rem;
+    
+}
+.row-1 p{
+    color: darkblue;
+    margin-top: 0.5rem;
+}
+
+
+/* @media section starts here. */
+
+@media only screen and (max-width:767px){ 
+    body{
+        padding: 0;
+        margin: 0;
+    }
+
+    div.row{
+        padding: 0 0.7rem ;
+        margin: 0;
+        
+    }
+    .col-md-3{
+        padding: 0;
+        margin: 0;
+    }
+    .row-p{ 
+    width: 100%;
+    font-size: 0.8rem;      
+    }
+    .col-md-5 img{
+        width: 15rem;
+        height: 15rem;
+        /* display: none; */
+        margin-left: 14%;
+    }
+    /* row-div ended here. */
+
+    /* row-1-div started here. */
+    .col-md-3 img{
+        width: 12rem;
+        height: 7rem;
+        margin-top: 1.5rem ;
+    }
+    .col-md-3{
+     text-align: center;
+     background-color: white;
+     border: 1px solid rgb(135, 139, 141);
+    }
+    .row-1 p{
+    color: darkblue;
+    margin-top: 0.5rem;
+    }
+
+}
+
+
+
+
+
