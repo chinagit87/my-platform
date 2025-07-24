@@ -107,12 +107,12 @@ h2{
 /* @media section starts here. */
 
 @media only screen and (max-width:767px){ 
-    /* body{
+    body{
         padding: 0;
         margin: 0;
-    } */
+    }
 
-    /* div.row{
+    div.row{
         padding: 0 0.7rem ;
         margin: 0;
         
@@ -130,11 +130,11 @@ h2{
         height: 15rem;
         /* display: none; */
         margin-left: 14%;
-    } */
+    }
     /* row-div ended here. */
 
     /* row-1-div started here. */
-    /* .col-md-3 img{
+    .col-md-3 img{
         width: 12rem;
         height: 7rem;
         margin-top: 1.5rem ;
@@ -147,7 +147,7 @@ h2{
     .row-1 p{
     color: darkblue;
     margin-top: 0.5rem;
-    } */
+    }
 
 }
 
