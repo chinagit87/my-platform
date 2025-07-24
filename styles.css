@@ -35,7 +35,6 @@ li a:hover{
 /* <!-- who we are div started here. --> */
 .who-we-are-h2{
     color: rgba(246, 116, 68, 0.947);
-    /* padding-top: 3rem; */
 }
 /* row div started here. */
 .row{
@@ -43,8 +42,8 @@ li a:hover{
 }
 .row-p{
     padding-top: 1rem; 
-    width: 39rem;  
-    font-size: 1.1rem;     
+    font-size: 1.1rem;  
+       
 }
 .col-md-5 img{
     width: 20rem;
@@ -58,36 +57,62 @@ h1{
     text-align: center;
     padding: 2rem;
 }
-.row{
+.row-1{
     background-color: rgb(227, 233, 235); 
-    overflow: hidden;   
+    overflow: hidden; 
 }
 .col-md-3{
-    border: 1px solid rgb(135, 139, 141);
-    padding-left: 1rem;
+    padding-left: 0.2rem;
 
 }
 .col-md-3 img{
     border-radius: 1.5rem;
     width: 100%;
-    margin-top: 1.5rem;
+    margin-bottom: 2rem;
     
 }
-.row-1 p{
+.col-md-3 p{
     color: darkblue;
     margin-top: 0.5rem;
+    padding-left: 0.8rem;
 }
+.col-md-3 a:hover{
+    text-decoration: none;
+}
+
+/* row-1 div ended here. */
+
+/* products-div started here. */
+h2{
+    color: rgba(246, 116, 68, 0.947);
+    text-align: center;
+    padding-top: 3rem;
+}
+.row-2 img{
+   margin: 0.5rem;
+}
+/* products-div ended here. */
+
+.second-h2{
+    color: rgba(246, 116, 68, 0.947);
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+
+
+
 
 
 /* @media section starts here. */
 
 @media only screen and (max-width:767px){ 
-    body{
+    /* body{
         padding: 0;
         margin: 0;
-    }
+    } */
 
-    div.row{
+    /* div.row{
         padding: 0 0.7rem ;
         margin: 0;
         
@@ -105,11 +130,11 @@ h1{
         height: 15rem;
         /* display: none; */
         margin-left: 14%;
-    }
+    } */
     /* row-div ended here. */
 
     /* row-1-div started here. */
-    .col-md-3 img{
+    /* .col-md-3 img{
         width: 12rem;
         height: 7rem;
         margin-top: 1.5rem ;
@@ -122,7 +147,7 @@ h1{
     .row-1 p{
     color: darkblue;
     margin-top: 0.5rem;
-    }
+    } */
 
 }
 
