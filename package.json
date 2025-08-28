@@ -1,19 +1,19 @@
 {
-  "name": "janes-hair",
+  "name": "janes-market",
   "version": "1.0.0",
-  "description": "market platform",
+  "description": "shopping web app",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chinagit87/my-platform.git"
+    "url": "git+https://github.com/chinagit87/jane-s-market.git"
   },
-  "author": "china",
+  "author": "emele chinonyerem",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chinagit87/my-platform/issues"
+    "url": "https://github.com/chinagit87/jane-s-market/issues"
   },
-  "homepage": "https://github.com/chinagit87/my-platform#readme"
+  "homepage": "https://github.com/chinagit87/jane-s-market#readme"
 }

@@ -3,35 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jane'sHair</title>
-    <!-- bootstrap stared here. -->
-      <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/cover/">
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- bootstrap ended here. -->
-     <link rel="stylesheet" href="styles.css">
-
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jane'sMarket</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- the navbar started here. -->
-     <nav>
-        <ul>
-            <li><a class="navbar-brand" href=""><span class="jane-span">JANE'S</span>Market</a></li>
-            <li><a class="active navbar-link" href="">Home</a></li>
-            <li><a class="navbar-link" href="">About Us</a></li>
-            <li><a class="navbar-link" href="">Products</a></li>
-            <li><a class="navbar-link" href="">Our Gallery</a></li>
-            <li><a class="navbar-link" href="">Blog</a></li>
-            <li><a class="navbar-link" href="">FAQs</a></li>
-            <li><a class="navbar-link" href="">Refund and Returns Policy</a></li>
-        </ul>
-     </nav>
-     <!-- the navbar ended here -->
 
-      <!-- who we are div started here. -->
-     <div class="row row-1">
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <a class="jane-brand" href="index.html"> <img style="border-radius: 50%; width:3rem;" src="pics/janes-logo.jpeg" 
+      alt=""><span style="color: rgba(246, 116, 68, 0.947)">Jane's</span>Market</a>
+
+
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+  
+
+      <li>
+        <a class="navbar-a-tags" href="index.html"><span style="color: rgba(246, 116, 68, 0.947)">Home</span></a>
+      </li>
+       <li>
+        <a class="navbar-a-tags" href="about-us.html">About us</a>
+      </li>
+      <li>
+        <a class="navbar-a-tags" href="products.html">Products</a>
+      </li>
+      <li>
+        <a class="navbar-a-tags" href="our-gallery.html">Our gallery</a>
+      </li>
+      <li>
+        <a class="navbar-a-tags" href="blog.html">Blog</a>
+      </li>
+      <li>
+        <a class="navbar-a-tags" href="FAQs.html">FAQs</a>
+      </li>
+      <li>
+        <a class="navbar-a-tags" href="return-and-refund-policy.html ">Return and Refund Policy</a>
+      </li>
+            
+    </ul>
+    
+  </div>
+</nav>
+
+ <!-- navbar section ended here. -->
+
+      <!-- row-1 div started here. -->
+     <div class="row top-div">
           <div class="col-md-7">
-            <h2 class="who-we-are-h2">Who are we?</h2>
+            <h2>Who are we?</h2>
             <p class="row-p">
               <span class="jane-span">JANE'sHAIR</span> is the leading wholesales of 100% human hair in Vietnam with a superior 
               monthly capacity of over 10 tons of hair. Our factory filled with dozens of highly 
@@ -46,19 +76,20 @@
               hair, all hairs are same direction from root to tip).
             </p>
           </div>
+
           <div class="col-md-5">
-            <img src="pics/weavon.png" alt="An image of a mixed colored weavon">
+            <img src="pics/bonestraight/bcoloured.jpg" alt="An image of a blounde color bonestraight">
           </div>
         </div>
-      <!-- who we are div ended here. -->
+      <!-- row-1 div ended here. -->
 
-      <!-- The featured products started here. -->
-          <h1>Featured Products</h1>
+      <!-- weavon div started here. -->
+            <h2 class="weavon-h2">Featured Products</h2>
 
-       <div class="row row-2">
+        <div class="row weavon-row">
           <div class="col-md-3">
-          <a href="products.html">
-            <img src="pics/bclosure-16.jpg" alt="A brown 8inches weavon">
+            <a href="products.html">
+            <img src="pics/bonestraight/bclosure-16.jpg" alt="A brown 8inches weavon">
             <p>100gram 8" <br>
               100g 10" with Closure 2x4 <br>
                 bonstraight</p>
@@ -66,33 +97,121 @@
           </div>
 
           <div class="col-md-3">
-          <a href="products.html">
-            <img src="pics/bouncy-curly-2.jpg" alt="A dark brown bouncy curly weavon">
+            <a href="products.html">
+            <img src="pics/bouncy-curly/bounce-3.jpg" alt="A dark brown bouncy curly weavon">
             <p>Dark brown color <br>
                14" bouncy curly SDD
             </p>
-          </a>
+            </a>
           </div>
 
           <div class="col-md-3">
-          <a href="">
-            <img src="pics/bclosure-18.jpg" alt="A gray color weavon">
+          <a href="products.html">
+            <img src="pics/bonestraight/bclosure-18.jpg" alt="A gray color weavon">
             <p>Bone Straight 8inches brown color.</p>
           </a>
           </div>
 
           <div class="col-md-3">
-          <a href="products.html">
-            <img src="pics/bcoloured-11.jpg" alt="An ox-blood weavon">
+          <a href="bonestraight.html">
+            <img src="pics/bonestraight/bcoloured-11.jpg" alt="An ox-blood weavon">
             <p>Bonestraight SDD <br>
               100gram 10inches
             </p>
           </a>
-          
           </div>
-       </div>
+
+        </div>
+       <!-- weavon div ended here. -->
+
+       <!-- undies div started here. -->
+
+         <div class="row undies-row">
+
+           <div class="col-md-3">
+             <a href="ladies-undies.html">
+             <img src="pics/ladies-undies/pant-13.jpg" alt="">
+             </a>
+           </div>
+
+           <div class="col-md-3">
+             <a href="ladies-undies.html">
+             <img src="pics/ladies-undies/pant-2.jpg" alt="">
+             </a>
+           </div>
+
+           <div class="col-md-3">
+             <a href="ladies-undies.html">
+             <img src="pics/ladies-undies/pant-3.jpg" alt="">
+             </a>
+           </div>
+
+           <div class="col-md-3">
+             <a href="ladies-undies.html">
+             <img src="pics/ladies-undies/pant-4.jpg" alt="">
+             </a>
+           </div>
+
+        </div>
+      <!-- undies div ended here. -->
+
+        <div class="row">
+          <div class="col-md-3">
+            <a href="china-men-shoes.html">
+              <img src="pics/china-men-shoes/shoe-1.jpg" alt="">
+            <p>Men's Shoes Casual Fashion Half Slippers Metal Buckle <br>
+
+               $ 7.00 ~ $ 7.26
+            </p>
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="turkey-shoes.html">
+              <img src="pics/men-shoes/men-2.jpg" alt="">
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="turkey-shoes.html">
+              <img src="pics/men-shoes/men-3.jpg" alt="">
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="turkey-shoes.html">
+              <img src="pics/men-shoes/men-4.jpg" alt="">
+            </a>
+          </div>
+        </div>
+<!-- social media section starts here. -->
+        <div class="social-media">
+          <a href="https://www.facebook.com/chinonyerem.emele">
+            <img src="pics/facebook.png" alt="Facebook logo image">
+          </a>
+          <a href="https://www.instagram.com/chinonyerem_emele">
+            <img class="instagram-image" src="pics/instagram.jpg" alt="Instagram logo image">
+          </a>
+          <a href="https://www.tiktok.com/@emele_chinonyerem">
+            <img src="pics/tiktok.png" alt="tictok logo image">
+          </a>
+          <a href="https://www.youtube.com/@EmeleChinonyerem">
+            <img class="youtube-image" src="pics/youtube.jpg" alt="youtube logo image">
+          </a>
+
+        </div>
 
 
+<footer>
+    Copyright @Jane'shair-2025
+
+</footer>
+
+
+<!-- <script src="index.js"></script> -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
     
     
 </body>

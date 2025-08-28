@@ -1,155 +1,298 @@
-/* the navbar section started here. */
-ul{
-    background-color: rgb(227, 233, 235);
-    overflow: hidden;
+body{
+    margin-top: 6rem;
 }
-li{
-   list-style-type: none;
-}
-li a{
-    color: #787575;
-    float: left;
-    padding: 0.5rem 2rem 0.5rem 0.5rem; 
-    font-weight: bold; 
-    text-decoration: none;
-}
-li a:hover{
-    color:rgba(246, 116, 68, 0.947);
-}
-.navbar-brand{
-    padding: 0.5rem 9rem; 
-    font-size: 1.8rem;
-    font-family: monospace;
-}
-.active{
-    color:rgba(246, 116, 68, 0.947);
-}
-.jane-span{
-    color:rgba(246, 116, 68, 0.947);
-}     
-.navbar-link{
-    padding-top: 1rem;
-}
-/* the navbar section ended here. */
+/* navbar section */
+  .navbar{
+    background-color: rgb(224, 228, 231);
+    font-family: "source-sans-pro",Arial,Helvetica,sans-serif;
+  }
 
-/* <!-- who we are div started here. --> */
-.who-we-are-h2{
-    color: rgba(246, 116, 68, 0.947);
-}
-/* row div started here. */
-.row{
-    padding: 3rem 12rem 12rem 12rem;
-}
-.row-p{
-    padding-top: 1rem; 
-    font-size: 1.1rem;  
-       
-}
-.col-md-5 img{
-    width: 20rem;
-    height: 23rem;
-}
-/* row div ended here. */
+   .dropdown-menu li a{
+    color: white;
+    padding-left: 2rem;
+  }
+  .dropdown-menu li a:hover{
+    color: #fff;
+    text-decoration: none;
+  }
+  a.active{
+    color: #fff;
+  }
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+  }
+
+  .dropdown-menu li a{
+      color: #8393aa;
+      padding-left: 2rem;
+  }
+  .dropdown-menu li a:hover{
+      color: #fff;
+      text-decoration: none;
+  }
+
+    a.navbar-a-tags{
+      color:  #8393aa;
+      font-weight: bold;
+      font-size: 1.1rem;
+      text-decoration:none ;
+      display: block;
+      margin: 0.9rem;
+    }  
+    .jane-brand{
+      padding-left: 3rem;
+      color: #8393aa;
+      font-weight: bold;
+      font-size: 2rem;
+      padding: 0 8rem 0 12rem; 
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .jane-brand:hover{
+      color: rgba(246, 116, 68, 0.947);
+      text-decoration: none;
+    }
+    a.navbar-a-tags:hover{
+      color: rgb(230, 175, 175);
+    
+    }   
+    a.active{
+      color: #fff;
+    }
+    .nav-link {
+      font-size: 1.2rem;
+      font-family: "Montserrat-light";    
+    }
+
+    /* navbar section ended here. */
 
 /* row-1 div started here. */
-h1{
+
+.top-div h2{
+    color: rgba(246, 116, 68, 0.947);
+    margin-left: 5rem;
+}
+.top-div p{
+    font-size: 1.1rem; 
+    padding-left: 6rem; 
+}
+/* row-1 div ended here. */
+
+/* weavon div started here. */
+.row{
+   width: 100%;
+   padding-left: 5%;
+   margin-top: 4rem;
+}
+h2{
     color: rgba(246, 116, 68, 0.947);
     text-align: center;
-    padding: 2rem;
-}
-.row-1{
-    background-color: rgb(227, 233, 235); 
-    overflow: hidden; 
 }
 .col-md-3{
-    padding-left: 0.2rem;
-
+    padding: 1rem 2.5rem;
+    box-shadow: 5px 8px 8px 5px #888888;
 }
 .col-md-3 img{
-    border-radius: 1.5rem;
-    width: 100%;
-    margin-bottom: 2rem;
-    
+    border-radius: 10px;
+}
+.col-md-3 img:hover{
+     margin-left: 1rem;
 }
 .col-md-3 p{
     color: darkblue;
-    margin-top: 0.5rem;
     padding-left: 0.8rem;
 }
 .col-md-3 a:hover{
     text-decoration: none;
 }
 
-/* row-1 div ended here. */
+/* weavon-row div ended here. */
 
-/* products-div started here. */
-h2{
+/* social media started here. */
+.social-media{
+    text-align: center;
+}
+.social-media img{
+    width: 50px;
+    height: 20px;
+}
+img.instagram-image{
+    width: 40px;
+}
+.youtube-image{
+    width: 50px !important;
+}
+/* social media ended here. */
+
+/* bonestraight section started here. */
+
+h1{
+    padding-top: 5rem;
+    text-align: center;
+    color: rgba(246, 116, 68, 0.947);
+}
+.bundle{
     color: rgba(246, 116, 68, 0.947);
     text-align: center;
-    padding-top: 3rem;
+    margin-right: 1rem;
 }
-.row-2 img{
-   margin: 0.5rem;
-}
-/* products-div ended here. */
-
-.second-h2{
+.bundle:hover{
     color: rgba(246, 116, 68, 0.947);
-    text-align: center;
-    padding-bottom: 3rem;
 }
+/* bonestraight ended here. */
 
+/* china men shoes section started here. */
 
+.china-men-shoes-row p:hover{
+    color: rgba(246, 116, 68, 0.947);
+    margin-left: 1rem;
+}
+/* china men shoes section ended here. */
 
+/* carousel section started here. */
+.item{
+    width: 40rem;
+    text-align: center;
+}
+.item p{
+    padding-right: 13rem;
+    color: darkblue;
+}
+.item p:hover{
+    font-size: 2rem;
+}
+.carousel-inner{
+    padding-left: 8rem;
+} */
+/* carousel section ended here. */
 
+footer{
+   background-color: rgb(227, 233, 235);
+   padding: 1.5rem 0 ;
+   text-align: center;
+   margin-top: 2rem;
+}
 
 
 /* @media section starts here. */
 
-@media only screen and (max-width:767px){ 
+@media only screen and (max-width:767px){
     body{
-        padding: 0;
+        padding:0;
         margin: 0;
     }
+    /* navbar section started here. */
 
-    div.row{
-        padding: 0 0.7rem ;
-        margin: 0;
-        
+    a.jane-brand{
+        padding-left: 1rem;
     }
-    .col-md-3{
+    .jane-brand{
+        padding: 0.5rem 0.5rem;
+    }
+     .dropdown-menu li a{
+      color: #8393aa;
+      padding-right: 1rem;
+    }
+    .navbar{
         padding: 0;
         margin: 0;
     }
-    .row-p{ 
-    width: 100%;
-    font-size: 0.8rem;      
+    /* navbar section ended here. */
+
+    /* h1 section started here. */
+    h1{
+        padding: 6rem 0 0 0.5rem;
+        font-size: 1.6rem;        
     }
+    /* h1 section ended here. */ 
+
+    /* h2 section started here. */
+    h2{
+        font-size: 1.7rem;
+        padding: 2.5rem 4rem 0 0;
+    }
+    /* h2 section ended here. */  
+
+    /* col-md-5 section started here. */
     .col-md-5 img{
-        width: 15rem;
-        height: 15rem;
-        /* display: none; */
-        margin-left: 14%;
+        width: 50%;
+        margin: 1rem 0 0 1rem;
+        border-radius: 5px;
     }
-    /* row-div ended here. */
+    /* col-md-5 section ended here. */
 
-    /* row-1-div started here. */
-    .col-md-3 img{
-        width: 12rem;
-        height: 7rem;
-        margin-top: 1.5rem ;
-    }
+    /* col-md-7 section started here. */
+    .col-md-7 .row-p{     
+        margin-left: -5rem; 
+    } 
+    /* col-md-7 section ended here. */
+
+    /* col-md-3 section started here. */  
     .col-md-3{
-     text-align: center;
-     background-color: white;
-     border: 1px solid rgb(135, 139, 141);
+    padding: 0.5rem 0 0.5rem 1rem;
+    box-shadow: 2px 4px 4px 2px #888888;
     }
-    .row-1 p{
+    .col-md-3 img{
+    width: 50%;
+    float: left;
+    margin: 1rem;
+    }
+    .col-md-3 p{
+        padding-top: 2rem;
+    }
+    .col-md-3 img:hover{
+     margin-left: 1rem;
+    }
+    .col-md-3 p{
     color: darkblue;
-    margin-top: 0.5rem;
+    padding-top: 0.5rem;
     }
+    .col-md-3 a:hover{
+    text-decoration: none;
+    }
+    /* col-md-3 section ended here. */
 
-}
+    /* product section started here. */
+    .product-h2{
+        padding: 6rem 0 0.1rem 0.5rem;
+    }   
+    .row-3 img{
+        margin-left: 5rem;
+    }   
+    /* product section ended here. */
+
+    /* social media started here. */
+    .social-media{
+    text-align: center;
+    padding-top: 1.5rem;
+    }
+    .social-media img{
+    width: 50px;
+    height: 20px;
+    }
+    img.instagram-image{
+    width: 40px;
+    }
+    .youtube-image{
+    width: 50px !important;
+    height: 10rem;
+    }
+/* social media ended here. */ 
+
+/* footer started here. */
+
+   footer{
+   background-color: rgb(227, 233, 235);
+   padding: 1.5rem 0 ;
+   text-align: center;
+   margin-top: 2rem;
+   }
+
+/* footer started here. */
+
+   }
+
+
 
 
 
