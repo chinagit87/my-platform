@@ -142,12 +142,22 @@ h1{
 /* bonestraight ended here. */
 
 /* china men shoes section started here. */
-
 .china-men-shoes-row p:hover{
     color: rgba(246, 116, 68, 0.947);
     margin-left: 1rem;
 }
 /* china men shoes section ended here. */
+/* girls fashion stars here. */
+.girls-wears{
+    width: 70%;
+    margin-left: 2.5rem;
+}
+.girls-cloth{
+    width: 80%;
+}
+/* girls fashion stars here. */
+
+
 
 /* carousel section started here. */
 .item{
@@ -165,14 +175,14 @@ h1{
     padding-left: 8rem;
 } */
 /* carousel section ended here. */
-
+/* footer section started here. */
 footer{
    background-color: rgb(227, 233, 235);
    padding: 1.5rem 0 ;
    text-align: center;
    margin-top: 2rem;
 }
-
+/* footer section ended here. */
 
 /* @media section starts here. */
 
@@ -261,6 +271,12 @@ footer{
     }   
     /* product section ended here. */
 
+    /* our gallery section started here. */
+    .carousel-div{
+        width: 30%;
+    }
+    /* our gallery section ended here. */
+
     /* social media started here. */
     .social-media{
     text-align: center;
@@ -279,17 +295,14 @@ footer{
     }
 /* social media ended here. */ 
 
-/* footer started here. */
-
+/* footer section started here. */
    footer{
    background-color: rgb(227, 233, 235);
    padding: 1.5rem 0 ;
    text-align: center;
    margin-top: 2rem;
    }
-
-/* footer started here. */
-
+/* footer section ended here. */
    }
 
 
